@@ -17,4 +17,11 @@
 
 @implementation MBCollectionViewCell
 
+- (void)updateViews {
+    if (self.planet) {
+        self.imageView.image = self.planet.planetImage;
+        self.nameLabel.text = self.planet.planetName;
+    }
+}
+
 @end

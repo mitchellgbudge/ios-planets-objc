@@ -18,6 +18,8 @@
 		6EC90E8B2370CC6D00107BA6 /* MBCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EC90E8A2370CC6D00107BA6 /* MBCollectionViewController.m */; };
 		6EC90E8E2370CEBA00107BA6 /* MBCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EC90E8D2370CEBA00107BA6 /* MBCollectionViewCell.m */; };
 		6EC90E912370D23500107BA6 /* MBSettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EC90E902370D23500107BA6 /* MBSettingsViewController.m */; };
+		6EC90E982370D53600107BA6 /* MBPlanet.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EC90E972370D53600107BA6 /* MBPlanet.m */; };
+		6EC90E9C2370D71300107BA6 /* MBPlanetController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EC90E9B2370D71300107BA6 /* MBPlanetController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +62,10 @@
 		6EC90E8D2370CEBA00107BA6 /* MBCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MBCollectionViewCell.m; sourceTree = "<group>"; };
 		6EC90E8F2370D23500107BA6 /* MBSettingsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MBSettingsViewController.h; sourceTree = "<group>"; };
 		6EC90E902370D23500107BA6 /* MBSettingsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MBSettingsViewController.m; sourceTree = "<group>"; };
+		6EC90E962370D53600107BA6 /* MBPlanet.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MBPlanet.h; sourceTree = "<group>"; };
+		6EC90E972370D53600107BA6 /* MBPlanet.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MBPlanet.m; sourceTree = "<group>"; };
+		6EC90E9A2370D71300107BA6 /* MBPlanetController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MBPlanetController.h; sourceTree = "<group>"; };
+		6EC90E9B2370D71300107BA6 /* MBPlanetController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MBPlanetController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +117,8 @@
 			isa = PBXGroup;
 			children = (
 				6EC90E652370C63C00107BA6 /* Info.plist */,
+				6EC90E992370D53900107BA6 /* Model */,
+				6EC90E9D2370D71600107BA6 /* Model Controller */,
 				6EC90E932370D30600107BA6 /* View Controllers */,
 				6EC90E922370D30000107BA6 /* Views */,
 				6EC90E942370D31F00107BA6 /* Storyboards */,
@@ -177,6 +185,24 @@
 				6EC90E602370C63C00107BA6 /* Assets.xcassets */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		6EC90E992370D53900107BA6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				6EC90E962370D53600107BA6 /* MBPlanet.h */,
+				6EC90E972370D53600107BA6 /* MBPlanet.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		6EC90E9D2370D71600107BA6 /* Model Controller */ = {
+			isa = PBXGroup;
+			children = (
+				6EC90E9A2370D71300107BA6 /* MBPlanetController.h */,
+				6EC90E9B2370D71300107BA6 /* MBPlanetController.m */,
+			);
+			path = "Model Controller";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -311,9 +337,11 @@
 			files = (
 				6EC90E912370D23500107BA6 /* MBSettingsViewController.m in Sources */,
 				6EC90E8E2370CEBA00107BA6 /* MBCollectionViewCell.m in Sources */,
+				6EC90E982370D53600107BA6 /* MBPlanet.m in Sources */,
 				6EC90E562370C63A00107BA6 /* AppDelegate.m in Sources */,
 				6EC90E8B2370CC6D00107BA6 /* MBCollectionViewController.m in Sources */,
 				6EC90E672370C63C00107BA6 /* main.m in Sources */,
+				6EC90E9C2370D71300107BA6 /* MBPlanetController.m in Sources */,
 				6EC90E592370C63A00107BA6 /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

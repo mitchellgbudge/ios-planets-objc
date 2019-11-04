@@ -10,4 +10,14 @@
 
 @implementation MBPlanet
 
+- (instancetype)initWithName:(NSString *)planetName imageName:(NSString *)planetImage
+{
+    self = [super init];
+    if (self) {
+        _planetName = [planetName copy];
+        _planetImage = [UIImage imageNamed:planetImage];
+    }
+    return self;
+}
+
 @end

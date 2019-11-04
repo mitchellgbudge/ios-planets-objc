@@ -1,21 +1,19 @@
 //
-//  MBCollectionViewCell.h
+//  MBPlanetController.h
 //  Planets
 //
 //  Created by Mitchell Budge on 11/4/19.
 //  Copyright © 2019 Mitchell Budge. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
-#import "MBPlanet.h"
+#import <Foundation/Foundation.h>
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface MBCollectionViewCell : UICollectionViewCell
+@interface MBPlanetController : NSObject
 
-@property MBPlanet *planet;
-
-- (void)updateViews;
+@property NSArray *planets;
+@property NSArray *planetsNoPluto;
 
 @end
 
