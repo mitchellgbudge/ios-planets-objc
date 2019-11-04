@@ -18,12 +18,20 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    [self updateViews];
+}
+
+- (void)updateViews {
+    [self.shouldShowPlutoSwitch setOn: [[NSUserDefaults standardUserDefaults] boolForKey:@"ShouldShowPluto"]];
 }
 
 - (IBAction)changeShouldShowPluto:(id)sender
 {
-    
+    BOOL shouldShowPluto = self.shouldShowPlutoSwitch.isOn;
+    [[NSUserDefaults standardUserDefaults] setBool:shouldShowPluto forKey:@"ShouldShowPluto"];
+    [self dismissViewControllerAnimated:YES completion:nil];
 }
+
+
 
 @end

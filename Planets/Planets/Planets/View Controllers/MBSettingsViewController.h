@@ -10,6 +10,8 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
+@class MBPlanet;
+
 @interface MBSettingsViewController : UIViewController
 
 @end
