@@ -16,6 +16,7 @@
 		6EC90E672370C63C00107BA6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EC90E662370C63C00107BA6 /* main.m */; };
 		6EC90E712370C63C00107BA6 /* PlanetsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EC90E702370C63C00107BA6 /* PlanetsTests.m */; };
 		6EC90E7C2370C63C00107BA6 /* PlanetsUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EC90E7B2370C63C00107BA6 /* PlanetsUITests.m */; };
+		6EC90E8B2370CC6D00107BA6 /* MBCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EC90E8A2370CC6D00107BA6 /* MBCollectionViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,8 @@
 		6EC90E772370C63C00107BA6 /* PlanetsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PlanetsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6EC90E7B2370C63C00107BA6 /* PlanetsUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PlanetsUITests.m; sourceTree = "<group>"; };
 		6EC90E7D2370C63C00107BA6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6EC90E892370CC6D00107BA6 /* MBCollectionViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MBCollectionViewController.h; sourceTree = "<group>"; };
+		6EC90E8A2370CC6D00107BA6 /* MBCollectionViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MBCollectionViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +113,8 @@
 				6EC90E582370C63A00107BA6 /* SceneDelegate.m */,
 				6EC90E5A2370C63A00107BA6 /* ViewController.h */,
 				6EC90E5B2370C63A00107BA6 /* ViewController.m */,
+				6EC90E892370CC6D00107BA6 /* MBCollectionViewController.h */,
+				6EC90E8A2370CC6D00107BA6 /* MBCollectionViewController.m */,
 				6EC90E5D2370C63A00107BA6 /* Main.storyboard */,
 				6EC90E602370C63C00107BA6 /* Assets.xcassets */,
 				6EC90E622370C63C00107BA6 /* LaunchScreen.storyboard */,
@@ -269,6 +274,7 @@
 			files = (
 				6EC90E5C2370C63A00107BA6 /* ViewController.m in Sources */,
 				6EC90E562370C63A00107BA6 /* AppDelegate.m in Sources */,
+				6EC90E8B2370CC6D00107BA6 /* MBCollectionViewController.m in Sources */,
 				6EC90E672370C63C00107BA6 /* main.m in Sources */,
 				6EC90E592370C63A00107BA6 /* SceneDelegate.m in Sources */,
 			);
